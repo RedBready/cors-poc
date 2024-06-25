@@ -9,7 +9,7 @@ This will update the html files to point to the correct target site and maliciou
 ```
 
 ## Manual Usage
-* `git clone https://github.com/trustedsec/cors-poc`
+```git clone https://github.com/trustedsec/cors-poc```
 * `cd cors-poc`
 * Edit **corstest.html** to update [target-site/target-page] and [our-server].
 * `python3 -m http.server --cgi` **Caution:** all files in the current directory and sub-directories will be served on 
