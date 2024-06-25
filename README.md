@@ -16,9 +16,8 @@ git clone git@github.com:RedBready/cors-poc.git
 
 ## Manual Usage
 ```
-git clone git@github.com:RedBready/cors-poc.git
+git clone git@github.com:RedBready/cors-poc.git && cd cors-poc
 ```
-* `cd cors-poc`
 * Edit **corstest.html** to update [target-site/target-page] and [our-server].
 * `python3 -m http.server --cgi` **Caution:** all files in the current directory and sub-directories will be served on 
    HTTP port 8000.
