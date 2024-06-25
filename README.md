@@ -7,7 +7,7 @@ This will update the html files to point to the correct target site and maliciou
 
 - Clone Repo
 ```
-git clone git@github.com:RedBready/cors-poc.git
+git clone git@github.com:RedBready/cors-poc.git && cd cors-poc
 ```
 - Run Script
 ```
