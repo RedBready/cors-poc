@@ -1,7 +1,14 @@
 # cors-poc
 Companion code for TrustedSec's "CORS Findings: Another Way to Comprehend"
   blog post. See https://www.trustedsec.com/2018/04/cors-findings/ to understand situations where this could be useful.
-## Usage
+
+## Automated Setup with cors.sh
+This will update the html files to point to the correct target site and malicious webserver. The attacker controlled server is malicious IP variable and the target variable is the system vulnerable to CORS.
+```
+./cors.sh 100.10.10.10 https://example.com/admin/users
+```
+
+## Manual Usage
 * `git clone https://github.com/trustedsec/cors-poc`
 * `cd cors-poc`
 * Edit **corstest.html** to update [target-site/target-page] and [our-server].
