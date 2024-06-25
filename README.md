@@ -13,7 +13,7 @@ git clone git@github.com:RedBready/cors-poc.git && cd cors-poc
 ```
 ./cors.sh 100.10.10.10 https://example.com/admin/users
 ```
-The script will ouptup the two exloit urls for corstest.html and corstest2.html.
+The script will output the two exloit urls for corstest.html and corstest2.html.
 
 ## Manual Usage
 ```
