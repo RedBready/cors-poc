@@ -18,6 +18,7 @@ if sed -i "s|var url = .*;|var url = '${Target}';|" corstest.html && sed -i "s|v
 	echo ">[i] corstest.html updated"
 else
 	echo ">[i] corstest.html failed to update"
+ 	exit 1
 fi
 
 # Same as above but changin the corstest2.html
@@ -25,6 +26,7 @@ if sed -i "s|xhr.open.*$|xhr.open(\"GET\", \"$Target\", true);|" corstest2.html;
 	echo ">[i] cortest2.html updated"
 else
 	echo ">[i}corstest2.html failed to update"
+ 	exit 1
 fi
 
 echo ""
